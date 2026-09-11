@@ -11,8 +11,6 @@ For simplicity, we'll use these terms somewhat interchangeably:
 - **Directory** = folder
 - **App** = program = executable
 
-They're **not exactly the same thing**, but this distinction isn't important for the basics we're covering here.
-
 ---
 
 ## 💻 Terminal vs Shell
@@ -309,7 +307,7 @@ ls
 
 ---
 
-#  Writing a C Program
+# Writing a C Program
 
 To write a C program, you can run:
 
@@ -350,6 +348,7 @@ gcc program.c -o my_program
 ```
 
 Let's break this down:
+
 ```mermaid
 
 flowchart LR
