@@ -4,6 +4,16 @@
 
 ---
 
+## Steps to compile and execute the program
+
+```bash
+mkdir Your_Name  ## Creating a directory
+cd Your_Name     ## Going inside that directory
+gedit p1.c       ## Opening p1.c in gedit 
+gcc p1.c -o p1   ## Compiling p1.c file, saving output to p1
+./p1             ## Executing p1
+```
+
 ## 📁 Directory, App & Executable
 
 For simplicity, we'll use these terms somewhat interchangeably:
@@ -96,24 +106,7 @@ as:
 
 The first `/` is called the **root directory**.
 
-It is the top-level directory of the entire Linux filesystem. Everything inside your linux system is within /
-
-Think of it roughly like:
-
-```text
-/
-├── home/
-├── etc/
-├── usr/
-├── bin/
-├── var/
-└── ...
-```
-
-So `/` is **very different from your home directory**.
-
-> ⚠️ **Be careful with `/`!**  
-> It's the root of the filesystem. You generally don't want to randomly delete things from there.
+It is the top-level directory of the entire Linux filesystem. Everything (including system files) inside your linux system are within `/`
 
 ---
 
@@ -129,10 +122,10 @@ For example:
 
 is a path.
 
-If there was a folder called `Naman` inside the home directory:
+If there was a folder called `Hello` inside the home directory:
 
 ```text
-/home/computer/Naman/
+/home/computer/Hello/
 ```
 
 would be its path.
@@ -219,32 +212,6 @@ cd ..
 ```
 
 and you'll move to:
-
-```text
-/home/
-```
-
----
-
-### Another example
-
-```bash
-cd ~/../
-```
-
-Since:
-
-```text
-~ = /home/computer
-```
-
-this becomes:
-
-```text
-cd /home/computer/../
-```
-
-The `..` means "go one directory above", so you end up at:
 
 ```text
 /home/
@@ -678,5 +645,3 @@ gcc program.c -o app # Compile C program
 ..  → Directory above
 /   → Root directory / path separator
 ```
-
-> 📝 **Final note:** This guide intentionally simplifies a few Linux concepts. As you learn more, you'll encounter distinctions between things like programs, executables, commands, processes, directories, files, shells, terminals, and paths. For now, the simplified mental model above is enough to get started.
