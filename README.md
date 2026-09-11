@@ -1,6 +1,6 @@
 # 🐧 Linux Terminal & Bash Basics
 
-> **Note:** A lot of concepts here are simplified for the sake of making them easier to digest. Some terms aren't technically interchangeable, but we'll use them that way for now.
+> **Note:** A lot of concepts here are simplified for the sake of making them easier to digest.
 
 ---
 
