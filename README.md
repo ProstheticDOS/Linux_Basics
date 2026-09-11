@@ -9,7 +9,10 @@
 ```bash
 mkdir Your_Name  ## Creating a directory
 cd Your_Name     ## Going inside that directory
-gedit p1.c       ## Opening p1.c in gedit 
+gedit p1.c       ## Opening p1.c in gedit
+
+## Write your C program, press save then exit 
+
 gcc p1.c -o p1   ## Compiling p1.c file, saving output to p1
 ./p1             ## Executing p1
 ```
