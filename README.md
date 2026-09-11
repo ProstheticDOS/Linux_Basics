@@ -503,22 +503,6 @@ means:
 
 > Compile `program.c` and call the resulting executable `hello`.
 
-Some programs also have longer versions of flags.
-
-For example:
-
-```bash
---output hello
-```
-
-is the long-form equivalent of:
-
-```bash
--o hello
-```
-
-So:
-
 ```text
 -o
 ```
