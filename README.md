@@ -137,7 +137,7 @@ would be its path.
 
 Typing `/home/computer` every time would get annoying.
 
-So Linux gives you a shortcut:
+So the shell gives you a shortcut:
 
 ```text
 ~
